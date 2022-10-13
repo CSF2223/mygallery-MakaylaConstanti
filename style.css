@@ -73,7 +73,7 @@ p {
 }
 */
 
-.cardText {
+.cardtext {
     color: #47B5FF;
     background: transparent;
     text-align: center;
@@ -84,14 +84,18 @@ p {
 }
 
 @media (min-width: 768px){
-    .gallery{
+    header {
+        font-size: 1.6rem;
+    }
+    
+    .gallery {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
       flex-wrap: wrap;
-} 
+    } 
 
-.imagecard {
+.imageCard {
     max-width: 28%;
     }
 }
